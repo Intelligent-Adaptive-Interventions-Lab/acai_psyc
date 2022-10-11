@@ -212,7 +212,7 @@ def _init_prompt_field_psyc(arm_no: int=0, random: bool=False) -> Dict:
     
 
 def init_prompt(arm_no: int=0, random: bool=False) -> Dict:
-    return _init_prompt_field_psyc(arm_no, random)
+    return _init_prompt_field(arm_no, random)
 
 
 class Conversation:
